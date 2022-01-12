@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nombre": "Limon con semilla",
+      "imagen": "./img/img-products/Limon.jpg",
+      "precio": 26.82,
+      "descuento": 32,
+      "categoria": "frutas",
+      "populares": false
+    },
+    {
+      "id": 2,
+      "nombre": "Tomate",
+      "imagen": "./img/img-products/Limon.jpg",
+      "precio": 26.82,
+      "descuento": 32,
+      "categoria": "verduras",
+      "populares": false
+    },
+    {
+      "nombre": "cebolla",
+      "imagen": "./img/img-products/Limon.jpg",
+      "precio": 26.82,
+      "descuento": 32,
+      "categoria": "verduras",
+      "populares": false,
+      "id": 3
+    }
+  ]
+}
