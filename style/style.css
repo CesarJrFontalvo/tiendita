@@ -92,14 +92,17 @@ header {
 
 .container-products {
   width: 1286;
-  height: 500px;
+  height: 560px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 10px 9px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2vw;
 }
 
 #ofertas {
+  margin-top: 3vw;
   margin-left: 2vw;
+  margin-bottom: 2vw;
 }
 
 .products {
@@ -121,6 +124,7 @@ header {
 .product {
   width: 194px;
   height: 194px;
+  margin-bottom: 2vw;
 }
 
 .porcentage{

@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nombre": "Limon con semilla",
+      "imagen": "./img/img-products/Limon.jpg",
+      "precio": 26.82,
+      "descuento": 32,
+      "categoria": "frutas",
+      "populares": false
+    },
+    {
+      "id": 2,
+      "nombre": "Tomate",
+      "imagen": "./img/img-products/Tomate.jpg",
+      "precio": 21.79,
+      "descuento": 32,
+      "categoria": "verduras",
+      "populares": false
+    },
+    {
+      "nombre": "Aguacate",
+      "imagen": "./img/img-products/Aguacate.jpg",
+      "precio": 58.8,
+      "descuento": 18,
+      "categoria": "verduras",
+      "populares": false,
+      "id": 3
+    },
+    {
+      "nombre": "Nopal",
+      "imagen": "./img/img-products/Nopal.jpg",
+      "precio": 25.8,
+      "descuento": 13,
+      "categoria": "verduras",
+      "populares": false,
+      "id": 3
+    },
+    {
+      "id": 2,
+      "nombre": "Tomate verde sin cascara",
+      "imagen": "./img/img-products/TomateVerde.jpg",
+      "precio": 22.89,
+      "descuento": 8,
+      "categoria": "verduras",
+      "populares": false
+    }
+    ,
+    {
+      "nombre": "Coca Cola",
+      "imagen": "./img/img-products/Cocacola.jpg",
+      "precio": 26.26,
+      "descuento": 7,
+      "categoria": "soda",
+      "populares": false,
+      "id": 3
+    }
+  ],
+  "populares": [
+    {
+      "id": 1,
+      "nombre": "Limon con semilla",
+      "imagen": "./img/img-products/Limon.jpg",
+      "precio": 26.82,
+      "descuento": 32,
+      "categoria": "frutas",
+      "populares": false
+    }
+  ]
+}
