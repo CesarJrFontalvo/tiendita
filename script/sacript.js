@@ -3,39 +3,38 @@ let urlPopulares = "http://localhost:3001/populares"
 
 let products = document.querySelector('.products');
 
-// const getPopulares =async (urlPopulares)=>{
-//     const resp = await fetch(urlPopulares)
-//     const data = await resp.json()
-//     console.log(data)
-//     showPost(data);
-// }
-
-
-const getPost = async (url) =>{
+//    Obtener los datos
+const getPost = async (url) => {
     const resp = await fetch(url)
     const data = await resp.json()
-    
+
     showPost(data);
 }
 
+
+// Lamado a la funcion
 getPost(url)
 
-const showPost = (productos) =>{
- products.innerHTML=''
+
+// Mostrar los datos en la card
+const showPost = (productos) => {
+    products.innerHTML = ''
 
     productos.forEach(element => {
-        const {nombre,imagen,precio,descuento}=element
+        const { nombre, imagen, precio, descuento } = element
 
         const productDiv = document.createElement('div')
-        productDiv.classList.add('product')
+        productDiv.classList.add('ul')
 
-        productDiv.innerHTML=`
+        productDiv.innerHTML = `
+        <ul class="lst-groud">
+        <li >
 
         <div class="card" id="card">
 
         <div class="product" id="product-card">
             <h6 class="porcentage">${descuento}% dto.</h6>
-            <img src=${imagen} alt="">
+            <img src=${imagen} class="card-img-top" alt="...">
         </div>
             
        
@@ -45,8 +44,11 @@ const showPost = (productos) =>{
         </div>
             <button type="button" class="btn-agregar">Agregar</button>
         </div>
-       
+        </li>
+        </ul>
         `
         products.appendChild(productDiv)
     });
 }
+
+

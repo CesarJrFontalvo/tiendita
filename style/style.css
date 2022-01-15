@@ -77,8 +77,11 @@ header {
   position: relative;
   display: inline-block;
   text-align: center;
+  width: 1286px;
   margin-top: 2vw;
+  margin-right: 2vw;
   margin-bottom: 3vw;
+ 
 }
 .text-center {
   position: absolute;
@@ -91,8 +94,7 @@ header {
 /* container-products -------------- */
 
 .container-products {
-  width: 1286;
-  height: 560px;
+  
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 10px 9px rgba(0, 0, 0, 0.2);
@@ -109,7 +111,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
+} 
 
 .card {
   width: 194px;
@@ -145,4 +147,13 @@ header {
   border: none;
   border-radius: 5px;
   background-color: #0ac763;
+}
+
+.list-group{
+  flex-direction: row;; 
+  margin-right: 10px
+}
+
+li {
+  list-style-type: none;
 }

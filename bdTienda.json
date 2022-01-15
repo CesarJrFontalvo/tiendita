@@ -35,25 +35,6 @@
       "categoria": "verduras",
       "populares": false,
       "id": 3
-    },
-    {
-      "id": 2,
-      "nombre": "Tomate verde sin cascara",
-      "imagen": "./img/img-products/TomateVerde.jpg",
-      "precio": 22.89,
-      "descuento": 8,
-      "categoria": "verduras",
-      "populares": false
-    }
-    ,
-    {
-      "nombre": "Coca Cola",
-      "imagen": "./img/img-products/Cocacola.jpg",
-      "precio": 26.26,
-      "descuento": 7,
-      "categoria": "soda",
-      "populares": false,
-      "id": 3
     }
   ],
   "populares": [
