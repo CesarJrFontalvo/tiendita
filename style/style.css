@@ -112,6 +112,11 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
 } 
+.populares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} 
 
 .card {
   width: 194px;
@@ -121,6 +126,9 @@ header {
   position: relative;
   overflow: hidden;
   border-radius: 3px;
+}
+.card-title{
+  margin-left: 1.5vw;
 }
 
 .product {

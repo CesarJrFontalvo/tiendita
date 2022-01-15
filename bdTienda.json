@@ -7,7 +7,9 @@
       "precio": 26.82,
       "descuento": 32,
       "categoria": "frutas",
+      "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
       "populares": false
+      
     },
     {
       "id": 2,
@@ -17,7 +19,8 @@
       "descuento": 32,
       "categoria": "verduras",
       "populares": false
-    },
+    }
+    ,
     {
       "nombre": "Aguacate",
       "imagen": "./img/img-products/Aguacate.jpg",
@@ -40,12 +43,37 @@
   "populares": [
     {
       "id": 1,
-      "nombre": "Limon con semilla",
-      "imagen": "./img/img-products/Limon.jpg",
-      "precio": 26.82,
-      "descuento": 32,
-      "categoria": "frutas",
-      "populares": false
+      "nombre": "San Rafael pecguga de pavo",
+      "imagen": "./img/img-products/PechugaPavo.jpg",
+      "precio": 62.5,
+      "categoria": "carnes",
+      "populares": true
+    },
+    {
+      "id": 2,
+      "nombre": "Bimbo Pan Blanco Grande",
+      "imagen": "./img/img-products/PanBimbo.jpg",
+      "precio": 38.9,
+      "categoria": "carnes",
+      "populares": true
+    }
+    ,
+    {
+      "id": 3,
+      "nombre": "Mc Cormick Mayonesa",
+      "imagen": "./img/img-products/Mayonesa.jpg",
+      "precio": 48.5,
+      "categoria": "carnes",
+      "populares": true
+    }
+    ,
+    {
+      "id": 2,
+      "nombre": "Colgate Pasta Dental Triple Familiar 2 U",
+      "imagen": "./img/img-products/Colgate.jpg",
+      "precio": 35.5,
+      "categoria": "Higiene",
+      "populares": true
     }
   ]
 }
