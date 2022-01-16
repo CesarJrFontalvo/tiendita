@@ -3,6 +3,8 @@ let urlPopulares = "http://localhost:3001/populares"
 
 let products = document.querySelector('.products');
 let populares = document.querySelector('.populares');
+const listGroup = document.querySelector('.list-group');
+const element = document.querySelector('.list-group');
 
 //    Obtener los datos
 const getPost = async (url) => {
@@ -98,4 +100,26 @@ const showPostPopulares = (productos) => {
         populares.appendChild(productDiv)
     });
 }
+
+
+// document.addEventListener('DOMContentLoaded', () => {
+
+//     const data = getPost(url);
+//     showPost(data,element);
+    
+// })
+
+// element.addEventListener('click', async(e) => {
+
+//     const btnDetail = e.target.classList.contains('btn-agregar');
+//     const id = e.target.id;
+//     console.log(id)
+
+//     if(btnDetail){
+//          const lista = await getPost(url);
+//          const objeto = lista.find(list => list.id === Number(id))
+//          localStorage.setItem("Detail",JSON.stringify(objeto));
+//          window.location.href = "detail.html"
+//     }
+// })
 
